@@ -14,8 +14,7 @@ load_dotenv()
 app = FastAPI()
 
 # Get frontend URL from .env
-frontend_url = os.getenv("FRONTEND_URL", "http://localhost:5173")
-
+frontend_url = os.getenv("FRONTEND_URL", "https://money-muling-detection-q8wj.vercel.app")
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
