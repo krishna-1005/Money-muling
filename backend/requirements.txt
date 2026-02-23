@@ -1,8 +1,8 @@
 fastapi
 uvicorn
-flask-cors
+python-dotenv
 pandas
+networkx
 numpy
 scikit-learn
 joblib
-python-dotenv
