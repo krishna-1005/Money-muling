@@ -1,4 +1,5 @@
-flask
+fastapi
+uvicorn
 flask-cors
 pandas
 numpy
